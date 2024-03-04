@@ -14,5 +14,15 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require("tailwind-typewriter")({
+      wordsets: {
+        sentences: {
+          words: [" Work in progress......", "Will update by time........"],
+          repeat: 0,
+          writeSpeed: 0.1,
+        },
+      },
+    }),
+  ],
 };

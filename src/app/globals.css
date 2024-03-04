@@ -31,3 +31,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.animate-typing{
+  animation: typing 2s steps(20) infinite alternate, blink .7s infinite
+}
